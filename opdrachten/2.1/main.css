@@ -1,0 +1,19 @@
+body{
+    background-image: url(media/Pokemon_Emerald.svg.png);
+}
+body{
+    background-size: cover;
+}
+h1{
+    color: purple;
+}
+h3{
+    color: aqua;
+}
+
+P{
+    font-size: larger;
+}
+p{ 
+    color: lime;
+}
