@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action=""></form>
+    <label for="voornaam">voornaam:</label><br>
+    <input type="text" id="voornaam" name="voornaam" pattern="[A-Za-z]+" required>  <br><br>
+
+
+    <label for="achternaam">achternaam:</label><br>
+    <input type="text" id="achternaam" name="achternaam" pattern="[A-Za-z]+" required><br><br>
+
+    <label for="gender">Geslacht:</label><br>
+        <input type="radio" name="man" id="man">
+        <label for="man">man</label>
+        <input type="radio" name="vrouw" id="vrouw">
+        <label for="vrouw">vrouw</label>
+        <input type="radio" name="anders" id="anders">
+        <label for="anders">anders</label> <br><br>
+
+        <label for="fname">straat met huisnummer:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+
+        <label for="fname">postcode:</label><br>
+        <input type="text" id="fname" name="fname"> <br> <br>
+
+        <label for="fname">stad</label> <br>
+        <input type="text" id="fname" name="fname"> <br> <br>
+
+        <label for="fname">land</label> <br>
+        <input type="text" name="fname" id="fname"> <br> <br>
+
+        <label for="fname">BSN</label> <br>
+        <input type="text" name="fname" id="fname"> <br> <br>
+
+        <label for="fname">vakantie land</label> <br>
+        <select name="vakantieland" id="vakantieland" required>
+        <option value="Nederland">Nederland</option>
+        <option value="Duitsland">Duitsland</option>
+        <option value="Belgie">Belgie</option>
+        <option value="polen">polen</option>
+        <option value="griekenland">griekenland</option>
+    </select> <br> <br>
+
+    <label for="vertrekdatum">vertrekdatum</label>
+    <input type="date" id="vertrekdatum" name="vertrekdatum" min="<?= date('Y-m-d'); ?>" required><br>
+    
+
+<label for="terugkomst datum">terugkomst datum</label>
+<input type="date" name="terugkomst datum" id="terugkomst datum">
+
+<br><br>
+
+<label for="personen">personen</label>
+<input type="number">
+
+<br> <br>
+
+        <label for="submit">boek nu</label>
+        <input type="submit" value="submit">
+<br> <br>
+        <label for="email">email</label>
+        <input type="email" name="" id="">
+<br><br>
+<label for="password">wachtwoord</label>
+<input type="password" name="password" id="password">
+
+</body>
+</html>
