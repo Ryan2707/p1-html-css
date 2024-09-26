@@ -1,7 +1,16 @@
+header p{
+color: white;
+}
+
 h1{
     font-size: 24px;
     color: blue;
     font-weight: 700;
+    font-style: italic;
+}
+
+p{
+    color: #4D4D4D;
 }
 h2{
     font-size: 20px;
@@ -14,14 +23,39 @@ h3{
     color: teal;
     font-weight: 700;
 }
-p{
-    color: #4D4D4D;
-    }
-header{
-font-weight: 700;
-}
-
+    
 a{
     color: #8A2BE2;
     text-decoration:none;
+}
+
+body{
+    header{
+        margin: 0;
+        padding: 0;
+        width: fit-content;
+        height: 65vh;
+    }
+}
+
+body{
+    header{
+        background-image: url(/img/2022.jpg);
+        background-size: cover;
+        background-position: center;
+        
+    }
+}
+
+article img{
+    width: 50%;
+}
+
+article{
+    border-style: solid;
+    border-radius: 20px;
+    border-left-width: thick;
+    width: 1500px;
+    height: 1000;
+    border-color: green; 
 }
