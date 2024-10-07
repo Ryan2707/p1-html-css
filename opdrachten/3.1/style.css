@@ -37,3 +37,53 @@ nav a {
 nav img {
   width: 5vw;
 }
+
+.centeredText {
+  position: absolute;
+  font-weight: bold; 
+  color: white; 
+  top: 55%;
+  left: 50%; 
+  text-align: center;
+  font-size: xx-large;
+  transform: translate(-50%,-50%);
+  }
+
+.indeximg{
+  width: 100vw;
+}
+
+.html-css{
+float:left;
+margin-top: 0px;
+margin-right: 10px;
+margin-left: 10px;
+}
+
+.headhtml{
+ position: absolute;
+ left: 40%;
+ top: 15%;
+ font-weight: bold;
+ text-align: center;
+ font-size: xx-large;
+}
+
+.tekst{
+  text-align: left;
+  color: black;
+  margin-top: 200px ;
+  font-size: large;
+  font-weight: bold;
+}
+
+
+.htmlfooter{
+  position: fixed;
+  background-color: #00a8c7; 
+  color:white;
+  text-align: center;
+  padding: 20px;
+  bottom: 0%;
+  width: 100%;
+}
