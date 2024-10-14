@@ -37,3 +37,19 @@ nav a {
 nav img {
   width: 5vw;
 }
+
+
+.titlepage{
+margin: 0;
+padding: 0;
+width: 100vw;
+height: 100vh;
+text-align: center;
+font-size: xxx-large;
+margin-top: 270px;
+}
+
+.titleprogram{
+  margin: 0;
+  padding: 0  ;
+}
