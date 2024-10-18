@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+width: 100vw;
+height: 100vh;
+background-color: aqua;
+}
+
+
+.container{
+    margin: 0;
+    margin-left: 50px;
+    padding: 0;
+    width: 1200px;
+    height: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    
+}
+.box{
+    margin-top: 50px;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+.water{
+background-color: blue;
+}
+
+.dark{
+    color: white;
+    background-color: black;
+}
+
+.fire{
+    background-color: red;
+}
+
+.grass{
+    background-color: green;
+}
+
+
